@@ -78,3 +78,26 @@ letters
 # Save your answer in an object called answer_7
 #
 # HINT: Use `seq()` inside the square brackets
+160*0.4536
+[1] 72.576
+> 6*0.3048
+[1] 1.8288
+> answer_1<-72.576/1.8288^2
+> volume_oz <- 130
+> volume_m1<-volume_oz*29.574
+> x <- 2
+> y <- 3
+> z <- x + y
+> x <- 5
+> answer_3<-5
+> answer_4<-sqrt(200)
+> help("seq")
+> answer_5<-seq(from=2,to=100,by=2)
+> lgl_vec<-c(TRUE,TRUE,FALSE)
+> chr_vec<-c("apple","banana")
+> mixed<-c("apple","banana",TRUE,TRUE,FALSE)
+> answer_6<-mixed
+> letters
+[1] "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y"
+[26] "z"
+> answer_7<- letters[seq(from="a")]
